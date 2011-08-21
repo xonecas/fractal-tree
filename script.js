@@ -30,7 +30,7 @@
       if (depthValue > 14 || depthValue <= 0) {
          return smoke.alert("Sorry, invalid depth. Keep it between 1 and 14");
       } else if (colorValue < 100 || colorValue > 360) {
-         return smoke.alert("Sorry, invalid color. Keep it between 100 and 260");
+         return smoke.alert("Sorry, invalid color. Keep it between 100 and 360");
       } else {
          localStorage.setItem('depth', depth.value);
          localStorage.setItem('color', color.value);
