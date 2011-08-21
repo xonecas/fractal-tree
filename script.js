@@ -43,7 +43,7 @@
    reset.addEventListener('click', function (ev) {
       ev.preventDefault();
 
-      localStorage.setItem('depth', 14);
+      localStorage.setItem('depth', 10);
       localStorage.setItem('color', 280);
 
       location.reload();
