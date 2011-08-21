@@ -17,8 +17,8 @@
 
 
    /* Defaults */
-   depth.value = isNaN(maxGenerations) ? 10 : maxGenerations;
-   color.value = isNaN(colorDefault) ? 280 : colorDefault;
+   depth.value = maxGenerations  = isNaN(maxGenerations) ? 10 : maxGenerations;
+   color.value = colorDefault    = isNaN(colorDefault) ? 280 : colorDefault;
 
    /* Redraw button listener */
    redraw.addEventListener('click', function (ev) {
