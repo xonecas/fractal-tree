@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head charset="utf-8">
+
+   <title></title>
+   <meta name="author" content="">
+   <meta name="description" content="">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-1.0.0.min.css">
+   <link rel="stylesheet" href="smoke/smoke.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="main" class="container">
+      <div class="row">
+         <div class="span16 columns">
+            <h1>
+               Canvas particle tree
+               <small>See the <a href="http://t.co/NcEGMRd">original</a> here</small>
+            </h1>
+         </div>
+      </div>
+
+      <div class="row">
+         <form class="span6 columns form-stacked">
+            <fieldset>
+               <label for="depth">Depth</label>
+               <p class="input">
+                  <input id="depth" name="depth" type="text" size="2">
+               </p>
+
+               <label for="color">Color</label>
+               <p class="input">
+                  <input id="color" name="color" type="text" size="3"><br>
+                  <em>Enter a number between 100 and 360</em>
+               </p> 
+
+               <a id="redraw" href="#" class="btn small primary">Redraw</a>
+               <a id="reset" href="#" class="btn small">Reset</a>
+            </fieldset>
+         </form>
+      </div>
+
+      <div class="row">
+         <p class="span5 columns">
+            Credits go to <a href="//twitter.com/codepo8">Christian Heilmann</a>
+            for making the original. I'm <a href="//xonecas.com">Sean</a>, and 
+            I made this to learn how he did the tree, and to play around
+            with <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>
+            and <a href="http://ssssnakes.com/smoke/">smoke.js</a>.
+         </p>
+      </div>
+   </div>
+
+   <script src="smoke/smoke.js"></script>
+   <script src="script.js"></script>
+</body
+</html>
